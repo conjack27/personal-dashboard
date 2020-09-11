@@ -1,0 +1,21 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("../fonts/Roboto-Regular.otf");
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/Roboto-Regular.woff") format("woff"),
+        /* Pretty Modern Browsers */ url("../fonts/Roboto-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("../fonts/Roboto-Thin.otf");
+    src: url("../fonts/Roboto-Thin.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../fonts/Roboto-Thin.woff") format("woff"),
+        /* Pretty Modern Browsers */ url("../fonts/Roboto-Thin.ttf") format("truetype"); /* Safari, Android, iOS */
+}
