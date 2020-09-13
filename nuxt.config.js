@@ -36,7 +36,23 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    ['nuxt-fontawesome', {
+      component: 'fa', // customize component name
+      imports: [{
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['faLightbulb']
+      },
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['faLinkedin']
+      },
+      {
+        set: '@fortawesome/free-regular-svg-icons',
+        icons: ['faLightbulb']
+      }
+      ]
+    }]
   ],
   /*
   ** Nuxt.js modules

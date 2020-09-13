@@ -1,102 +1,71 @@
 <template>
-  <div class=" bg-grey">
-    <div class="min-h-screen max-w-1200 mx-auto my-auto flex items-center justify-center">
-      <div class=" text-white grid grid-cols-4 gap-2 w-full">
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98 col-span-2">
-          <h2 class="text-6xl font-heading m-2">
-            16 <span>| 24</span>
+  <div class="custom-bg min-h-screen p-8">
+    <h2 class="text-6xl font-heading p-4 text-center">
+      Connor's day
+    </h2>
+    <div class="max-w-1200 mx-auto my-auto flex items-center justify-center">
+      <div class=" text-white w-full custom-grid">
+        <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 music">
+          <h2 class="text-3xl font-heading m-2">
+            Music I'm listening to
           </h2>
-          <p class="text-xl font-body">
-            Goals Completed
-          </p>
+          <iframe
+            src="https://open.spotify.com/embed/playlist/6uRxytmYaRv0g3QWe3ajBa"
+            width="300"
+            height="280"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          />
         </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            <i class="fas fa-battery-three-quarters" />
+        <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 p-4 topics">
+          <h2 class="text-3xl font-heading mb-2">
+            Topics I'm currently interested in
           </h2>
-          <p class="text-xl font-body">
-            Respiration
-          </p>
+          <div class="bg-sand w-75 h-full rounded-md">
+            <ul class="text-2xl font-heading text-black text-left p-4">
+              <li>Nuclear Energy - Not evil</li>
+              <li>Genetically Modified foods - Also not evil</li>
+              <li>Film photography</li>
+              <li>Stoicism</li>
+            </ul>
+          </div>
         </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            <i class="fas fa-running" />
+        <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 weather">
+          <h2 class="text-3xl font-heading m-2">
+            Weather in Amsterdam
           </h2>
-          <p class="text-xl font-body">
-            Miles
-          </p>
+          <div class="elfsight-app-348188a9-4cfb-4416-a7f4-5d9d6190e0af" />
         </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            36 &deg;
+        <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 books">
+          <h2 class="text-3xl font-heading m-2">
+            Books Im reading
           </h2>
-          <p class="text-xl font-body">
-            Temperature
-          </p>
+          <div id="gr_custom_widget_1600000871" />
         </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            <i class="fas fa-bed" />
+        <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 p-4 social">
+          <h2 class="text-3xl font-heading mb-2">
+            Get In touch
           </h2>
-          <p class="text-xl font-body">
-            Sleep Keep
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98 col-span-2">
-          <h2 class="text-6xl font-heading m-2">
-            98 <span>bpm</span>
-          </h2>
-          <p class="text-xl font-body">
-            Heart Rate
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            170 <span>lbs</span>
-          </h2>
-          <p class="text-xl font-body">
-            Weight
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            28 <span>%</span>
-          </h2>
-          <p class="text-xl font-body">
-            Fat Percentage
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98 col-span-2">
-          <h2 class="text-6xl font-heading m-2">
-            118 <span>mgdl</span>
-          </h2>
-          <p class="text-xl font-body">
-            Blood Glucose
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98 col-span-2">
-          <h2 class="text-6xl font-heading m-2">
-            680 <span>kcal</span>
-          </h2>
-          <p class="text-xl font-body">
-            AVG Consumption
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            <i class="fas fa-dumbbell" />
-          </h2>
-          <p class="text-xl font-body">
-            Workouts
-          </p>
-        </div>
-        <div class="cursor-pointer h-block bg-cover bg-fixed flex flex-col items-center justify-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform hover:opacity-75 hover:scale-98">
-          <h2 class="text-6xl font-heading m-2">
-            85 <span>%</span>
-          </h2>
-          <p class="text-xl font-body">
-            Body Hydration
-          </p>
+          <div class="bg-sand w-full p-4 rounded-md">
+            <ul class="flex justify-between">
+              <li>
+                <a href="https://www.linkedin.com/in/connor-graham/">
+                  <i class="w-40 bg-center bg-no-repeat h-50 bg-contain block linkedin" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/igconnorr/">
+                  <i class="w-40 bg-center bg-no-repeat h-50 bg-contain block instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:graham.connor@gmail.com">
+                  <i class="w-40 bg-center bg-no-repeat h-50 bg-contain block email" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -107,44 +76,107 @@
 
 export default {
   components: {
+  },
+  mounted () {
+    const recaptchaScript = document.createElement('script')
+    recaptchaScript.setAttribute('src', 'https://apps.elfsight.com/p/platform.js')
+    document.head.appendChild(recaptchaScript)
+    const bookScript = document.createElement('script')
+    bookScript.setAttribute('src', 'https://www.goodreads.com/review/custom_widget/24036358.Connor\'s%20bookshelf:%20currently-reading?cover_position=left&cover_size=small&num_books=5&order=a&shelf=currently-reading&show_author=1&show_cover=1&show_rating=1&show_review=1&show_tags=1&show_title=1&sort=author&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1600000871&widget_text_color=000000&widget_title_size=medium&widget_width=medium')
+    document.head.appendChild(bookScript)
   }
+
 }
+
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+.instagram {
+  background-image: url(~assets/icons/instagram.svg);
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35498e;
-  letter-spacing: 1px;
+.linkedin {
+  background-image: url(~assets/icons/linkedin.svg);
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.email {
+  background-image: url(~assets/icons/email.svg);
 }
 
-.links {
-  padding-top: 15px;
+.custom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2px 2px;
+  grid-template-areas:
+    "music music topics topics"
+    "weather weather books books"
+    "social social books books";
 }
+
+.music { grid-area: music; }
+
+.topics { grid-area: topics; }
+
+.weather { grid-area: weather; }
+
+.books { grid-area: books; }
+
+.social { grid-area: social; }
+
+.custom-bg {
+  background: #3E5151;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gr_custom_container_1600000871 {
+    /* customize your Goodreads widget container here*/
+    border: 1px solid gray;
+    border-radius:10px;
+    padding: 10px 5px 10px 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 360px
+    }
+    .gr_custom_header_1600000871 {
+    /* customize your Goodreads header here*/
+    border-bottom: 1px solid gray;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 120%
+    }
+    .gr_custom_each_container_1600000871 {
+    /* customize each individual book container here */
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #aaa;
+    }
+    .gr_custom_book_container_1600000871 {
+    /* customize your book covers here */
+    overflow: hidden;
+    height: 60px;
+    float: left;
+    margin-right: 4px;
+    width: 39px;
+    }
+    .gr_custom_author_1600000871 {
+    /* customize your author names here */
+    font-size: 10px;
+    }
+    .gr_custom_tags_1600000871 {
+    /* customize your tags here */
+    font-size: 10px;
+    color: gray;
+    }
+    .gr_custom_rating_1600000871 {
+    /* customize your rating stars here */
+    float: right;
+    }
+
 </style>

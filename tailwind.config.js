@@ -22,7 +22,13 @@ module.exports = {
       1200: '1200px'
     },
     height: {
-      block: '210px'
+      block: '210px',
+      '3/4': '75%',
+      25: '25px',
+      50: '50px',
+      '64rem': '64rem',
+      400: '400px',
+      full: '100%'
     },
     colors: {
       indigo: '#5c6ac4',
@@ -30,7 +36,9 @@ module.exports = {
       red: '#de3618',
       pink: '#F2D0C9',
       white: '#FFFFFF',
+      yellow: '#f6e05e',
       black: '#000000',
+      sand: '#DECBA4',
       grey: '#333333'
     }
   },
