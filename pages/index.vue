@@ -1,12 +1,12 @@
 <template>
   <div class="custom-bg min-h-screen p-8">
-    <h2 class="text-6xl font-heading p-4 text-center">
+    <h2 class="text-6xl text-white font-heading p-4 text-center">
       Connor's Dashboard
     </h2>
     <div class="max-w-1200 mx-auto my-auto flex items-center justify-center">
-      <div class=" text-white w-full custom-grid">
+      <div class=" text-black w-full custom-grid">
         <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 music">
-          <h2 class="text-3xl font-heading m-2">
+          <h2 class="text-3xl font-body m-2">
             Music I'm listening to
           </h2>
           <iframe
@@ -19,8 +19,8 @@
           />
         </div>
         <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 p-4 topics">
-          <h2 class="text-3xl font-heading mb-2">
-            Topics I'm currently interested in
+          <h2 class="text-3xl font-body mb-2">
+            Topics I'm into atm
           </h2>
           <div class="bg-sand w-75 h-full rounded-md">
             <ul class="text-2xl font-heading text-black text-left p-4">
@@ -32,22 +32,22 @@
           </div>
         </div>
         <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 weather">
-          <h2 class="text-3xl font-heading m-2">
+          <h2 class="text-3xl font-body m-2">
             Weather in Amsterdam
           </h2>
           <div class="elfsight-app-348188a9-4cfb-4416-a7f4-5d9d6190e0af" />
         </div>
         <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 books">
-          <h2 class="text-3xl font-heading m-2">
+          <h2 class="text-3xl font-body m-2">
             Books Im reading
           </h2>
           <div id="gr_custom_widget_1600000871" />
         </div>
         <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 p-4 social">
-          <h2 class="text-3xl font-heading mb-2">
+          <h2 class="text-3xl font-body mb-2">
             Get In touch
           </h2>
-          <div class="bg-sand w-full p-4 rounded-md">
+          <div class=" w-full p-4 rounded-md">
             <ul class="flex justify-between">
               <li>
                 <a href="https://www.linkedin.com/in/connor-graham/">
@@ -126,9 +126,9 @@ export default {
 .social { grid-area: social; }
 
 .custom-bg {
-  background: #3E5151;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .eaw-weather-info + div{

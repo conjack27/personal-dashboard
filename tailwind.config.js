@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'main-image': "url('../img/img-2.jpg')"
+        'main-image': "url('../img/pic-1.jpg')"
       })
     },
     fontFamily: {
