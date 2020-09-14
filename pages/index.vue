@@ -51,17 +51,17 @@
             <ul class="flex justify-between">
               <li>
                 <a href="https://www.linkedin.com/in/connor-graham/">
-                  <i class="w-40 bg-center bg-no-repeat h-50 bg-contain block linkedin" />
+                  <i class="w-32 bg-center bg-no-repeat h-25 bg-contain block linkedin" />
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/igconnorr/">
-                  <i class="w-40 bg-center bg-no-repeat h-50 bg-contain block instagram" />
+                  <i class="w-32 bg-center bg-no-repeat h-25 bg-contain block instagram" />
                 </a>
               </li>
               <li>
                 <a href="mailto:graham.connor@gmail.com">
-                  <i class="w-40 bg-center bg-no-repeat h-50 bg-contain block email" />
+                  <i class="w-32 bg-center bg-no-repeat h-25 bg-contain block email" />
                 </a>
               </li>
             </ul>
@@ -129,6 +129,10 @@ export default {
   background: #3E5151;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.eaw-weather-info + div{
+  display: none;
 }
 
 .gr_custom_container_1600000871 {
