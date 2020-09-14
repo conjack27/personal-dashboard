@@ -43,16 +43,7 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    ['nuxt-fontawesome', {
-      component: 'fa',
-      imports: [
-        {
-          set: '@fortawesome/free-solid-svg-icons',
-          icons: ['faDollarSign']
-        }
-      ]
-    }]
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
