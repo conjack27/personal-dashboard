@@ -39,7 +39,7 @@
         </div>
         <div class="h-full bg-cover bg-fixed flex flex-col items-center text-center transition-all duration-300 rounded-md ease-in bg-main-image transform col-span-2 books">
           <h2 class="text-3xl font-body m-2">
-            Books Im reading
+            Books I'm reading
           </h2>
           <div id="gr_custom_widget_1600000871" />
         </div>
