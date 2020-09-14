@@ -1,7 +1,7 @@
 <template>
   <div class="custom-bg min-h-screen p-8">
     <h2 class="text-6xl font-heading p-4 text-center">
-      Connor's day
+      Connor's Dashboard
     </h2>
     <div class="max-w-1200 mx-auto my-auto flex items-center justify-center">
       <div class=" text-white w-full custom-grid">
